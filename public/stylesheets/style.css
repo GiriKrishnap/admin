@@ -1,0 +1,68 @@
+/* limeGreen - #AAFF00 */
+body{
+    margin: 0px;
+    background:#00aa69 !important;
+    font-family: 'Mochiy Pop One', sans-serif;  
+    user-select: none;
+}
+.logincon{
+    border-radius: 20px;
+    transition: 0.4s;
+}
+.logincon:hover{
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+.pic-part{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.login-part2{
+    background: #AAFF00;
+    transition: 0.4s;
+}
+.login-part2:hover{
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+}
+.input-box{
+    height: 45px;
+    width: 100%;
+    border: 0px;
+    padding: 10px;
+    margin-top: 15px;
+    border-radius: 6px;
+    box-shadow: rgba(0, 0, 0, 0.04) 0px 3px 5px;
+    transition: 0.4s;
+
+}
+.input-box:focus{
+    transform: scale(1.02);
+}
+.logintext{
+    margin-top: 10px;
+    font-weight: 400;
+    letter-spacing: 3px;
+}
+.submit-btn{
+    margin-top: 20px;
+    width: 100%;
+    height: 50px;
+    border: 0;
+    background: rgb(29, 29, 29);
+    color: white;
+    letter-spacing: 4px;
+    box-shadow: rgba(0, 0, 0, 0.04) 0px 3px 5px;
+    transition: 0.3s;
+}
+.submit-btn:hover{
+    transform: scale(1.02);
+    box-shadow: rgba(240, 46, 170, 0.4) 0px 5px, rgba(240, 46, 170, 0.3) 0px 10px, rgba(240, 46, 170, 0.2) 0px 15px, rgba(240, 46, 170, 0.1) 0px 20px, rgba(240, 46, 170, 0.05) 0px 25px;
+}
+.a{
+    letter-spacing: 5px;
+    font-weight: 700;
+}
+.link{
+    text-decoration: none;
+    letter-spacing: 2px;
+}
